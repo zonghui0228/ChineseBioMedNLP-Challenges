@@ -8,7 +8,7 @@ This GitHub repository provides a comprehensive review of recent advances in com
 Table summary of community challenges and related evaluation tasks.
 
 | Community challenge | Year | Evaluation task | Brief task description |
-|---------------------|------|-----------------|-----------------------|
+|---------------------|------|-----------------|--------------------|
 | CCKS | 2023 | PromptCBLUE | CCKS-PromptCBLUE medical large model evaluation |
 | CCKS | 2021 | CNER-EE | Entity and event extraction of Chinese electronic medical records |
 | CCKS | 2021 | Phe-Drug-Mol | Link Prediction of Phenotype-Drug-Molecular Multilevel Knowledge Graph |
