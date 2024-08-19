@@ -1,4 +1,4 @@
-# CCKS 2021 Phe-Drug-Mol.md
+# CCKS 2021 Phe-Drug-Mol
 
 ## Task Description
 
