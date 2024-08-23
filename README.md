@@ -62,7 +62,7 @@ Note: the original links of evaluation tasks are in Chinese. To enhance informat
     > 
     > Dataset size: training set: 68500, validation set: 10270, test set: 20540
     > 
-    > [link](https://sigkg.cn/ccks2023/evaluation) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/master/tasks_en/CCKS_2023_PromptCBLUE.md) | [paper](https://arxiv.org/abs/2310.14151) | [github](https://github.com/michael-wzhu/PromptCBLUE/blob/main/README_EN.md) | [leaderboard1](https://tianchi.aliyun.com/competition/entrance/532084/rankingList) | [leaderboard2](https://tianchi.aliyun.com/competition/entrance/532085/rankingList)
+    > [link](https://sigkg.cn/ccks2023/evaluation) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2023_PromptCBLUE.md) | [paper](https://arxiv.org/abs/2310.14151) | [github](https://github.com/michael-wzhu/PromptCBLUE/blob/main/README_EN.md) | [leaderboard1](https://tianchi.aliyun.com/competition/entrance/532084/rankingList) | [leaderboard2](https://tianchi.aliyun.com/competition/entrance/532085/rankingList)
 
 - ###### 2021
 
