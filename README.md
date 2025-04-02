@@ -5,7 +5,7 @@ This GitHub repository provides a comprehensive review of recent advances in com
 
 ## How to cite
 
-Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen. **Advancing Chinese biomedical text mining with community challenges**. Journal of biomedical informatics, 2024;157:104716. doi:10.1016/j.jbi.2024.104716
+Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen. **Advancing Chinese biomedical text mining with community challenges**. Journal of biomedical informatics, 2024;157:104716. pmid: [39197732](https://pubmed.ncbi.nlm.nih.gov/39197732/). doi:[10.1016/j.jbi.2024.104716](https://doi.org/10.1016/j.jbi.2024.104716)
 
 
 ## Introduction
