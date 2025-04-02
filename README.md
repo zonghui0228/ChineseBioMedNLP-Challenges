@@ -3,6 +3,10 @@
 This GitHub repository provides a comprehensive review of recent advances in community challenge evaluation competitions for biomedical text mining in China. The repository focuses on the growing field of biomedical natural language processing, which has become increasingly important due to the vast accumulation of textual data from sources such as scientific literature, electronic health records, clinical trial reports, and social media. The repository collects information on various BioNLP tasks, including named entity recognition, entity normalization, attribute extraction, relation extraction, event extraction, text classification, text similarity, knowledge graph construction, question answering, text generation, and large language model evaluation.
 `中国生物医学自然语言处理社区挑战学术评估竞赛。这些数据来源包括但不限于科学文献、电子健康记录、临床试验报告和社交媒体等。自然语言处理任务包括但不限于命名实体识别、术语标准化、属性提取、关系提取、事件提取、文本分类、文本相似性、知识图谱构建、问答、文本生成和大语言模型评估。`
 
+## How to cite
+
+Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen. **Advancing Chinese biomedical text mining with community challenges**. Journal of biomedical informatics, 2024;157:104716. doi:10.1016/j.jbi.2024.104716
+
 
 ## Introduction
 
@@ -397,10 +401,4 @@ Note: the original links of evaluation tasks are in Chinese. To enhance informat
     > 
     > [link](https://www.biendata.xyz/competition/ccir2019/) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCIR_2019_EMR-Query.md) | [leaderboard](https://www.biendata.xyz/competition/ccir2019/leaderboard/)
 
-
-
-
-## How to cite
-
-Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen. **Advancing Chinese biomedical text mining with community challenges**. Journal of biomedical informatics, 2024;157:104716. doi:10.1016/j.jbi.2024.104716
 
