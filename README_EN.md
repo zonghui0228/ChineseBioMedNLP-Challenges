@@ -1,25 +1,25 @@
 <p align="left">
-    中文</a>&nbsp ｜ &nbsp<a href="README_EN.md">English</a>&nbsp 
+    <a href="README.md">中文</a>&nbsp ｜ &nbspEnglish&nbsp
 </p>
 <br>
 
-# 中文生物医学健康信息处理评测挑战任务合集
+# ChineseBioNLP-Challenges
 
-本仓库全面总结了中国生物医学自然语言处理社区挑战评测竞赛的最新进展。该仓库聚焦于蓬勃发展的生物医学自然语言处理领域，该领域的重要性日益凸显，这主要得益于来自科学文献、电子病历、临床试验报告和社交媒体等来源的大量文本数据的积累。仓库收集了各种任务的信息，包括命名实体识别、实体规范化、属性抽取、关系抽取、事件抽取、文本分类、文本相似度、知识图谱构建、问答系统、文本生成以及大型语言模型评估。
+This GitHub repository provides a comprehensive review of recent advances in community challenge evaluation competitions for biomedical text mining in China. The repository focuses on the growing field of biomedical natural language processing, which has become increasingly important due to the vast accumulation of textual data from sources such as scientific literature, electronic health records, clinical trial reports, and social media. The repository collects information on various BioNLP tasks, including named entity recognition, entity normalization, attribute extraction, relation extraction, event extraction, text classification, text similarity, knowledge graph construction, question answering, text generation, and large language model evaluation.
 
 
-## 如何引用
+## How to cite
 
 *Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen*. Advancing Chinese biomedical text mining with community challenges. *Journal of biomedical informatics*, 2024;157:104716. PMID: [39197732](https://pubmed.ncbi.nlm.nih.gov/39197732/). DOI:[10.1016/j.jbi.2024.104716](https://doi.org/10.1016/j.jbi.2024.104716)
 
 
-## 概览
+## Introduction
 
 Table summary of community challenges and related evaluation tasks.
 
-| 会议名称 | 年份 | 任务缩写 | 任务名称 |
+| Community challenge | Year | Evaluation task | Brief task description |
 |---|---|---|---|
-| CHIP | 2025 | CQC | 面向住院电子病历入院记录的内涵质控任务 |
+| CHIP | 2025 | CQC | Content Quality Control Task for Admission Records in Inpatient Electronic Medical Records`面向住院电子病历入院记录的内涵质控任务` |
 | CHIP | 2025 | CDrugRed | Discharge Medication Recommendation Task for Metabolic Diseases Based on Chinese Electronic Health Records`面向中文电子病历的代谢性疾病出院用药推荐任务` |
 | CHIP | 2025 | MedCodeGPT | Medical NLP Code Auto-Generation Task - Identifying Patients Who Meet Clinical Trial Eligibility Criteria`医学NLP代码自动生成测评-识别符合临床试验入组标准的患者` |
 | CHIP | 2024 | SDTTCM | Syndrome Differentiation Thought in Traditional Chinese Medicine`中医辨证思维评测任务` |
