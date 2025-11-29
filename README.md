@@ -3,6 +3,7 @@
 This GitHub repository provides a comprehensive review of recent advances in community challenge evaluation competitions for biomedical text mining in China. The repository focuses on the growing field of biomedical natural language processing, which has become increasingly important due to the vast accumulation of textual data from sources such as scientific literature, electronic health records, clinical trial reports, and social media. The repository collects information on various BioNLP tasks, including named entity recognition, entity normalization, attribute extraction, relation extraction, event extraction, text classification, text similarity, knowledge graph construction, question answering, text generation, and large language model evaluation.
 `中国生物医学自然语言处理社区挑战学术评估竞赛。这些数据来源包括但不限于科学文献、电子健康记录、临床试验报告和社交媒体等。自然语言处理任务包括但不限于命名实体识别、术语标准化、属性提取、关系提取、事件提取、文本分类、文本相似性、知识图谱构建、问答、文本生成和大语言模型评估。`
 
+
 ## How to cite
 
 *Hui Zong, Rongrong Wu, Jiaxue Cha, Weizhe Feng, Erman Wu, Jiakun Li, Aibin Shao, Liang Tao, Zuofeng Li, Buzhou Tang, Bairong Shen*. Advancing Chinese biomedical text mining with community challenges. *Journal of biomedical informatics*, 2024;157:104716. PMID: [39197732](https://pubmed.ncbi.nlm.nih.gov/39197732/). DOI:[10.1016/j.jbi.2024.104716](https://doi.org/10.1016/j.jbi.2024.104716)
@@ -14,16 +15,9 @@ Table summary of community challenges and related evaluation tasks.
 
 | Community challenge | Year | Evaluation task | Brief task description |
 |---|---|---|---|
-| CCKS | 2023 | PromptCBLUE | CCKS-PromptCBLUE medical large model evaluation`PromptCBLUE医疗大模型评测` |
-| CCKS | 2021 | CNER-EE | Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取` |
-| CCKS | 2021 | Phe-Drug-Mol | Link Prediction of Phenotype-Drug-Molecular Multilevel Knowledge Graph`表型-药物-分子多层次知识图谱的链接预测` |
-| CCKS | 2021 | MedDG | Chinese Medical Dialogue Generation Incorporating Implicit Entities`蕴含实体的中文医疗对话生成` |
-| CCKS | 2021 | CMRC | Reading Comprehension for Chinese Medical Popular Science Knowledge`面向中文医疗科普知识的内容理解` |
-| CCKS | 2020 | Covid19 | Construction and Question-Answering of COVID-19 Knowledge Graph`新冠知识图谱构建与问答` |
-| CCKS | 2020 | CNER-EE | Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取` |
-| CCKS | 2019 | CNER-AE | Named entity recognition and attribute extraction for electronic health records`面向中文电子病历的医疗实体识别及属性提取` |
-| CCKS | 2018 | CNER | Named entity recognition for electronic health records`面向中文电子病历的命名实体识别` |
-| CCKS | 2017 | CNER | Named entity recognition for electronic health records`电子病历命名实体识别` |
+| CHIP | 2025 | CQC | Content Quality Control Task for Admission Records in Inpatient Electronic Medical Records`面向住院电子病历入院记录的内涵质控任务` |
+| CHIP | 2025 | CDrugRed | Discharge Medication Recommendation Task for Metabolic Diseases Based on Chinese Electronic Health Records`面向中文电子病历的代谢性疾病出院用药推荐任务` |
+| CHIP | 2025 | MedCodeGPT | Medical NLP Code Auto-Generation Task - Identifying Patients Who Meet Clinical Trial Eligibility Criteria`医学NLP代码自动生成测评-识别符合临床试验入组标准的患者` |
 | CHIP | 2024 | SDTTCM | Syndrome Differentiation Thought in Traditional Chinese Medicine`中医辨证思维评测任务` |
 | CHIP | 2024 | LymphomaCoding | Lymphoma Information Extraction and Automatic Coding`淋巴瘤信息抽取及肿瘤编码自动生成任务` |
 | CHIP | 2024 | TCDC | Typical Case Diagnosis Consistency`典型病历诊断一致性任务` |
@@ -52,6 +46,16 @@ Table summary of community challenges and related evaluation tasks.
 | CHIP | 2019 | CTC | Text classification of Chinese clinical trials eligibility criteria`临床试验筛选标准短文本分类` |
 | CHIP | 2018 | CNER-AE | Entity and attribute extraction of Chinese electronic medical records`中文电子病历中临床医疗实体及属性抽取` |
 | CHIP | 2018 | STS | Patient health consultation question pairs matching`平安医疗科技智能患者健康咨询问句匹配大赛` |
+| CCKS | 2023 | PromptCBLUE | CCKS-PromptCBLUE medical large model evaluation`PromptCBLUE医疗大模型评测` |
+| CCKS | 2021 | CNER-EE | Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取` |
+| CCKS | 2021 | Phe-Drug-Mol | Link Prediction of Phenotype-Drug-Molecular Multilevel Knowledge Graph`表型-药物-分子多层次知识图谱的链接预测` |
+| CCKS | 2021 | MedDG | Chinese Medical Dialogue Generation Incorporating Implicit Entities`蕴含实体的中文医疗对话生成` |
+| CCKS | 2021 | CMRC | Reading Comprehension for Chinese Medical Popular Science Knowledge`面向中文医疗科普知识的内容理解` |
+| CCKS | 2020 | Covid19 | Construction and Question-Answering of COVID-19 Knowledge Graph`新冠知识图谱构建与问答` |
+| CCKS | 2020 | CNER-EE | Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取` |
+| CCKS | 2019 | CNER-AE | Named entity recognition and attribute extraction for electronic health records`面向中文电子病历的医疗实体识别及属性提取` |
+| CCKS | 2018 | CNER | Named entity recognition for electronic health records`面向中文电子病历的命名实体识别` |
+| CCKS | 2017 | CNER | Named entity recognition for electronic health records`电子病历命名实体识别` |
 | DCIC | 2021 | CNER | Medical entity recognition based on pathology report text`智能医疗决策，病理“金数据”赋能医学诊断` |
 | CCL | 2021 | IMCS | Intelligent medical dialogue diagnosis and evaluation`智能医疗对话诊疗评测` |
 | CSMI | 2020 | PHQC | Classification of public health questions`公众健康问句分类` |
@@ -62,91 +66,31 @@ Table summary of community challenges and related evaluation tasks.
 
 Note: the original links of evaluation tasks are in Chinese. To enhance information sharing and reach a broader audience, we have provided English translations at the link_en. Furthermore, where applicable, we have included links to GitHub, publication, and leaderboard associated with these tasks.
 
-### CCKS
-
-- ###### 2023
-  - PromptCBLUE: CCKS-PromptCBLUE medical large model evaluation`PromptCBLUE医疗大模型评测`
-    > The dataset is sourced from the CBLUE benchmark, encompassing 16 scenarios of medical natural language processing tasks, and includes 94 instruction fine-tuning templates.
-    > 
-    > Dataset size: training set: 68500, validation set: 10270, test set: 20540
-    > 
-    > [link](https://sigkg.cn/ccks2023/evaluation) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2023_PromptCBLUE.md) | [paper](https://arxiv.org/abs/2310.14151) | [github](https://github.com/michael-wzhu/PromptCBLUE/blob/main/README_EN.md) | [leaderboard1](https://tianchi.aliyun.com/competition/entrance/532084/rankingList) | [leaderboard2](https://tianchi.aliyun.com/competition/entrance/532085/rankingList)
-
-- ###### 2021
-
-  - CNER-EE: Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取`
-    > The medical named entity recognition dataset consists of manually annotated plain text documents from EHRs, identifying medically relevant entities. It includes 6 predefined categories: diseases and diagnoses, examinations, tests, surgeries, medications, and anatomical locations. The medical event extraction dataset includes manually annotated plain text documents from EHRs, focusing on attribute entities related to primary entities of tumor events. It encompasses 3 categories: primary site, lesion size, and metastatic site.
-    > 
-    > Dataset size: 2800 and 3000
-    > 
-    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_CNER-EE.md) | [paper](https://link.springer.com/chapter/10.1007/978-981-19-0713-5_15) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_clinic/)
-
-  - Phe-Drug-Mol: Link Prediction of Phenotype-Drug-Molecular Multilevel Knowledge Graph`表型-药物-分子多层次知识图谱的链接预测`
-    > A knowledge graph constructed from structured data sourced from reputable websites encompasses 7 types of relationships: associated_with, disease_mapped_to_gene, treats, targets, interacts_with, annotates, and pathway_has_gene_element. 
-    > 
-    > Dataset size: 80,000 entities, 1,200,000 triples.
-    > 
-    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_Phe-Drug-Mol.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_kg_link_prediction/leaderboard/)
-
-  - MedDG: Chinese Medical Dialogue Generation Incorporating Implicit Entities`蕴含实体的中文医疗对话生成`
-    > The MedDG dataset, annotated with entities, encompasses 12 types of gastroenterology-related diseases. Each dialogue is annotated with 160 relevant entities across 5 categories: diseases, symptoms, attributes, examinations, and medications. Dataset size: 20,611.
-    > 
-    > Dataset size: training set: 17864, test set: 4347
-    > 
-    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_MedDG.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_mdg/leaderboard/)
-
-  - CMRC: Reading Comprehension for Chinese Medical Popular Science Knowledge`面向中文医疗科普知识的内容理解`
-    > The dataset for reading comprehension of medical popular science knowledge includes the main content and a list of question-answer pairs, including question description, question ID, answer list. The dataset of recognizing irrelevant answers in medical popular science knowledge, the format of this dataset is one entry per line, with five columns, including Label, Docid, Question, Description, and Answer.
-    > 
-    > Dataset size: 36000 and 55000
-    > 
-    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_CMRC.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_tencentmedical_1/leaderboard/)
-
-- ###### 2020
-
-  - Covid19: Construction and Question-Answering of COVID-19 Knowledge Graph`新冠知识图谱构建与问答`
-    > The COVID-19 knowledge graph encompasses seven entity types: virus, bacteria, disease, drug, medical specialty, examination subject, and symptom. The COVID-19 concept graph additionally includes type relationships between entities and concepts, as well as hierarchical relationships among concepts. The antiviral drug graph includes entities, entity attributes, and relationships between entities. The integrated dataset from the open-domain knowledge base PKUBASE and the OpenKG COVID-19 special topic includes information on entity category triples, hierarchical relationships between types, and predicates. 
-    > 
-    > Dataset size: This knowledge graph contains 66,499,920 triples, 25,574,536 entities, and 408,690 relations. A training set of 4,000 items, a validation set of 1,529 items, and a test set of 1,599 items
-    > 
-    > [link](https://sigkg.cn/ccks2020/?page_id=516) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2020_Covid19.md) | [paper](https://bj.bcebos.com/v1/conference/ccks2020/eval_paper/ccks2020_eval_paper_1_1_2.pdf) | [leaderboard1](http://www.biendata.xyz:8002/competition/ccks_2020_7_1/leaderboard/) | [leaderboard2](http://www.biendata.xyz:8002/competition/ccks_2020_7_2/leaderboard/) | [leaderboard3](http://www.biendata.xyz:8002/competition/ccks_2020_7_3/leaderboard/) | [leaderboard4](http://www.biendata.xyz:8002/competition/ccks_2020_7_4/leaderboard/)
-
-  - CNER-EE: Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取`
-    > For medical named entity recognition dataset, it consists of manually annotated entities in EHRs, including diseases and diagnoses, examinations, tests, surgeries, medications, and anatomical locations. For medical event extraction dataset, it comprises manually annotated attribute entities associated with primary entities of oncology events in EHRs. It includes three categories: primary site, lesion size, and metastatic site.
-    > 
-    > Dataset size: 1500 and 1400
-    > 
-    > [link](https://sigkg.cn/ccks2020/?page_id=516) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2020_CNER-EE.md) | [paper](https://direct.mit.edu/dint/article/3/3/376/98586/Overview-of-CCKS-2020-Task-3-Named-Entity) | [leaderboard1](http://www.biendata.xyz:8002/competition/ccks_2020_2_1/leaderboard/) | [leaderboard2](http://www.biendata.xyz:8002/competition/ccks_2020_2_2/leaderboard/)
-
-- ###### 2019
-
-  - CNER-AE: Named entity recognition and attribute extraction for electronic health records`面向中文电子病历的医疗实体识别及属性提取`
-    > Medical Named Entity Recognition Dataset: The dataset comprises manually annotated documents from EHRs, capturing clinically relevant entities. These entities are categorized into 5 pre-defined categories: Symptoms and Signs, Examinations and Tests, Diseases and Diagnoses, Treatments, and Body Parts. Dataset size: 12,020. Attribute Extraction Dataset: This dataset consists of manually annotated documents from EHRs, focusing on attribute entities related to tumor events. These entities are categorized into 3 types: Lesion Size, Primary Site, and Metastatic Site. Dataset size: 2,000.
-    > 
-    > Dataset size: 1379
-    > 
-    > [link](https://www.sigkg.cn/ccks2019/?page_id=62) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2019_CNER-AE.md) | [paper](https://arxiv.org/abs/2003.03875) | [leaderboard](https://www.biendata.xyz/competition/ccks_2019_1/leaderboard/)
-
-- ###### 2018
-
-  - CNER: Named entity recognition for electronic health records`面向中文电子病历的命名实体识别`
-    > The dataset consists of manually annotated entities from EHRs, including anatomical sites, symptom descriptions, independent symptoms, medications, and surgeries.
-    > 
-    > Dataset size: 800
-    > 
-    > [link](https://www.sigkg.cn/ccks2018/?page_id=1) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2018_CNER.md) | [paper](https://link.springer.com/chapter/10.1007/978-981-15-1956-7_14) | [leaderboard](https://www.biendata.xyz/competition/CCKS2018_1/leaderboard/)
-
-- ###### 2017
-
-  - CNER: Named entity recognition for electronic health records`电子病历命名实体识别`
-    > The dataset consists of manually annotated entities from EHRs, including anatomical locations, symptom descriptions, independent symptoms, medications, and surgeries.
-    > 
-    > Dataset size: 400
-    > 
-    > [link](https://www.sigkg.cn/ccks2017/?page_id=51) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2017_CNER.md) | [leaderboard](https://www.biendata.xyz/competition/CCKS2017_2/leaderboard/)
 
 
 ### CHIP
+
+- ###### 2025
+  - CQC: Content Quality Control Task for Admission Records in Inpatient Electronic Medical Records`面向住院电子病历入院记录的内涵质控任务`
+    > This evaluation centers on the core task of "medical record quality control," aiming to assess the model's capabilities in understanding, reasoning, and identifying issues within medical narrative documents. The task focuses on a common type of inpatient medical record-the Admission Note.
+    > 
+    > Dataset size: training set: 1000, test-A set: 300, test-B set: 300
+    > 
+    > [link](http://cips-chip.org.cn/2025/eval1) | [leaderboard](https://tianchi.aliyun.com/competition/entrance/532413/rankingList)
+
+  - CDrugRed: Discharge Medication Recommendation Task for Metabolic Diseases Based on Chinese Electronic Health Records`面向中文电子病历的代谢性疾病出院用药推荐任务`
+    > This task constructs a dataset (CDrugRed) specifically for evaluating medication recommendations for metabolic diseases. The data is based on anonymized medical records from the Second Affiliated Hospital of Dalian Medical University, comprising 5,894 medical records from 3,190 patients. The data is divided into a training set, a development set (A-list test set), and a test set (B-list test set), where the development and test sets do not contain standard answers.
+    > 
+    > Dataset size: training set: 1910, validation set: 320, test set: 960
+    > 
+    > [link](http://cips-chip.org.cn/2025/eval2) ｜ [leaderboard](https://tianchi.aliyun.com/competition/entrance/532411/rankingList)
+
+  - MedCodeGPT: Medical NLP Code Auto-Generation Task - Identifying Patients Who Meet Clinical Trial Eligibility Criteria`医学NLP代码自动生成测评-识别符合临床试验入组标准的患者`
+    > This evaluation task provided a total of 51 clinical trial enrollment/exit questions across 19 categories, with varying levels of difficulty. Each question included the question itself and its FHIR and FSH definitions. Participating teams were required to generate and submit NLP code according to the FHIR message bundle standards.
+    > 
+    > Dataset size: training set: 51x17, test-A set: 51x17, test-B set: 51x17
+    > 
+    > [link](http://cips-chip.org.cn/2025/eval3) | [leaderboard](https://tianchi.aliyun.com/competition/entrance/532429/rankingList)
 
 - ###### 2024
   - SDTTCM: Syndrome Differentiation Thought in Traditional Chinese Medicine`中医辨证思维评测任务`
@@ -355,6 +299,90 @@ Note: the original links of evaluation tasks are in Chinese. To enhance informat
     > Dataset size: training set: 20000, test set: 10000
     > 
     > [link](http://icrc.hitsz.edu.cn/chip2018/Task.html) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CHIP_2018_STS.md)
+
+
+### CCKS
+
+- ###### 2023
+  - PromptCBLUE: CCKS-PromptCBLUE medical large model evaluation`PromptCBLUE医疗大模型评测`
+    > The dataset is sourced from the CBLUE benchmark, encompassing 16 scenarios of medical natural language processing tasks, and includes 94 instruction fine-tuning templates.
+    > 
+    > Dataset size: training set: 68500, validation set: 10270, test set: 20540
+    > 
+    > [link](https://sigkg.cn/ccks2023/evaluation) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2023_PromptCBLUE.md) | [paper](https://arxiv.org/abs/2310.14151) | [github](https://github.com/michael-wzhu/PromptCBLUE/blob/main/README_EN.md) | [leaderboard1](https://tianchi.aliyun.com/competition/entrance/532084/rankingList) | [leaderboard2](https://tianchi.aliyun.com/competition/entrance/532085/rankingList)
+
+- ###### 2021
+
+  - CNER-EE: Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取`
+    > The medical named entity recognition dataset consists of manually annotated plain text documents from EHRs, identifying medically relevant entities. It includes 6 predefined categories: diseases and diagnoses, examinations, tests, surgeries, medications, and anatomical locations. The medical event extraction dataset includes manually annotated plain text documents from EHRs, focusing on attribute entities related to primary entities of tumor events. It encompasses 3 categories: primary site, lesion size, and metastatic site.
+    > 
+    > Dataset size: 2800 and 3000
+    > 
+    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_CNER-EE.md) | [paper](https://link.springer.com/chapter/10.1007/978-981-19-0713-5_15) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_clinic/)
+
+  - Phe-Drug-Mol: Link Prediction of Phenotype-Drug-Molecular Multilevel Knowledge Graph`表型-药物-分子多层次知识图谱的链接预测`
+    > A knowledge graph constructed from structured data sourced from reputable websites encompasses 7 types of relationships: associated_with, disease_mapped_to_gene, treats, targets, interacts_with, annotates, and pathway_has_gene_element. 
+    > 
+    > Dataset size: 80,000 entities, 1,200,000 triples.
+    > 
+    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_Phe-Drug-Mol.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_kg_link_prediction/leaderboard/)
+
+  - MedDG: Chinese Medical Dialogue Generation Incorporating Implicit Entities`蕴含实体的中文医疗对话生成`
+    > The MedDG dataset, annotated with entities, encompasses 12 types of gastroenterology-related diseases. Each dialogue is annotated with 160 relevant entities across 5 categories: diseases, symptoms, attributes, examinations, and medications. Dataset size: 20,611.
+    > 
+    > Dataset size: training set: 17864, test set: 4347
+    > 
+    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_MedDG.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_mdg/leaderboard/)
+
+  - CMRC: Reading Comprehension for Chinese Medical Popular Science Knowledge`面向中文医疗科普知识的内容理解`
+    > The dataset for reading comprehension of medical popular science knowledge includes the main content and a list of question-answer pairs, including question description, question ID, answer list. The dataset of recognizing irrelevant answers in medical popular science knowledge, the format of this dataset is one entry per line, with five columns, including Label, Docid, Question, Description, and Answer.
+    > 
+    > Dataset size: 36000 and 55000
+    > 
+    > [link](https://sigkg.cn/ccks2021/?page_id=27) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2021_CMRC.md) | [paper](https://link.springer.com/book/10.1007/978-981-19-0713-5) | [leaderboard](https://www.biendata.xyz/competition/ccks_2021_tencentmedical_1/leaderboard/)
+
+- ###### 2020
+
+  - Covid19: Construction and Question-Answering of COVID-19 Knowledge Graph`新冠知识图谱构建与问答`
+    > The COVID-19 knowledge graph encompasses seven entity types: virus, bacteria, disease, drug, medical specialty, examination subject, and symptom. The COVID-19 concept graph additionally includes type relationships between entities and concepts, as well as hierarchical relationships among concepts. The antiviral drug graph includes entities, entity attributes, and relationships between entities. The integrated dataset from the open-domain knowledge base PKUBASE and the OpenKG COVID-19 special topic includes information on entity category triples, hierarchical relationships between types, and predicates. 
+    > 
+    > Dataset size: This knowledge graph contains 66,499,920 triples, 25,574,536 entities, and 408,690 relations. A training set of 4,000 items, a validation set of 1,529 items, and a test set of 1,599 items
+    > 
+    > [link](https://sigkg.cn/ccks2020/?page_id=516) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2020_Covid19.md) | [paper](https://bj.bcebos.com/v1/conference/ccks2020/eval_paper/ccks2020_eval_paper_1_1_2.pdf) | [leaderboard1](http://www.biendata.xyz:8002/competition/ccks_2020_7_1/leaderboard/) | [leaderboard2](http://www.biendata.xyz:8002/competition/ccks_2020_7_2/leaderboard/) | [leaderboard3](http://www.biendata.xyz:8002/competition/ccks_2020_7_3/leaderboard/) | [leaderboard4](http://www.biendata.xyz:8002/competition/ccks_2020_7_4/leaderboard/)
+
+  - CNER-EE: Entity and event extraction of Chinese electronic medical records`面向中文电子病历的医疗实体及事件抽取`
+    > For medical named entity recognition dataset, it consists of manually annotated entities in EHRs, including diseases and diagnoses, examinations, tests, surgeries, medications, and anatomical locations. For medical event extraction dataset, it comprises manually annotated attribute entities associated with primary entities of oncology events in EHRs. It includes three categories: primary site, lesion size, and metastatic site.
+    > 
+    > Dataset size: 1500 and 1400
+    > 
+    > [link](https://sigkg.cn/ccks2020/?page_id=516) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2020_CNER-EE.md) | [paper](https://direct.mit.edu/dint/article/3/3/376/98586/Overview-of-CCKS-2020-Task-3-Named-Entity) | [leaderboard1](http://www.biendata.xyz:8002/competition/ccks_2020_2_1/leaderboard/) | [leaderboard2](http://www.biendata.xyz:8002/competition/ccks_2020_2_2/leaderboard/)
+
+- ###### 2019
+
+  - CNER-AE: Named entity recognition and attribute extraction for electronic health records`面向中文电子病历的医疗实体识别及属性提取`
+    > Medical Named Entity Recognition Dataset: The dataset comprises manually annotated documents from EHRs, capturing clinically relevant entities. These entities are categorized into 5 pre-defined categories: Symptoms and Signs, Examinations and Tests, Diseases and Diagnoses, Treatments, and Body Parts. Dataset size: 12,020. Attribute Extraction Dataset: This dataset consists of manually annotated documents from EHRs, focusing on attribute entities related to tumor events. These entities are categorized into 3 types: Lesion Size, Primary Site, and Metastatic Site. Dataset size: 2,000.
+    > 
+    > Dataset size: 1379
+    > 
+    > [link](https://www.sigkg.cn/ccks2019/?page_id=62) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2019_CNER-AE.md) | [paper](https://arxiv.org/abs/2003.03875) | [leaderboard](https://www.biendata.xyz/competition/ccks_2019_1/leaderboard/)
+
+- ###### 2018
+
+  - CNER: Named entity recognition for electronic health records`面向中文电子病历的命名实体识别`
+    > The dataset consists of manually annotated entities from EHRs, including anatomical sites, symptom descriptions, independent symptoms, medications, and surgeries.
+    > 
+    > Dataset size: 800
+    > 
+    > [link](https://www.sigkg.cn/ccks2018/?page_id=1) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2018_CNER.md) | [paper](https://link.springer.com/chapter/10.1007/978-981-15-1956-7_14) | [leaderboard](https://www.biendata.xyz/competition/CCKS2018_1/leaderboard/)
+
+- ###### 2017
+
+  - CNER: Named entity recognition for electronic health records`电子病历命名实体识别`
+    > The dataset consists of manually annotated entities from EHRs, including anatomical locations, symptom descriptions, independent symptoms, medications, and surgeries.
+    > 
+    > Dataset size: 400
+    > 
+    > [link](https://www.sigkg.cn/ccks2017/?page_id=51) | [link_en](https://github.com/zonghui0228/ChineseBioMedNLP-Challenges/blob/main/tasks_en/CCKS_2017_CNER.md) | [leaderboard](https://www.biendata.xyz/competition/CCKS2017_2/leaderboard/)
 
 
 ### DCIC
